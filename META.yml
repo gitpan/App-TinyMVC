@@ -1,0 +1,25 @@
+--- #YAML:1.0
+name:               App-TinyMVC
+version:            0.01_1
+abstract:           A lightweight MVC framework for dynamic content
+author:
+    - Nuno Carvalho <smash@cpan.org>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Template:             0
+    Template::Constants:  0
+    Test::More:           0
+    YAML::AppConfig:      0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
