@@ -5,7 +5,7 @@ package App::TinyMVC::UrlParser;
 use strict;
 use warnings;
 
-our $VERSION = '0.1_1';
+our $VERSION = '0.01_2';
 
 sub new {
 	my($class,$r) = @_;

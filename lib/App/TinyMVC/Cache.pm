@@ -5,7 +5,7 @@ package App::TinyMVC::Cache;
 use strict;
 use warnings;
 
-our $VERSION = '0.1_1';
+our $VERSION = '0.01_2';
 
 use Cache::Memcached;
 

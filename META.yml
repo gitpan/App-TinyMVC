@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               App-TinyMVC
-version:            0.01_1
+version:            0.01_2
 abstract:           A lightweight MVC framework for dynamic content
 author:
     - Nuno Carvalho <smash@cpan.org>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    Cache::Memcached:     0
     Template:             0
     Template::Constants:  0
     Test::More:           0
